@@ -2,7 +2,7 @@ import { Tooltip } from "react-tooltip";
 import cv from "../../../src/assets/Blue Simple Professional CV Resume (5).pdf";
 const Banner = () => {
   return (
-    <div className="border-2 border-red-500 reletive bg-black-900  flex ">
+    <div className=" reletive bg-black-900  flex ">
       <div className="hero-content flex-col lg:flex-row gap-14">
         <img
           src="https://i.ibb.co/jgW3mxs/Picsart-24-05-06-19-42-45-708.png"
@@ -31,7 +31,7 @@ const Banner = () => {
           <button className="btn btn-primary">Contact me</button>
         </div>
       </div>
-      <div className=" top-0 absulate border-2 border-blue-800 top-0 left-0 ">
+      <div className=" top-0 absulate  top-0 left-0 ">
         <label
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Hello, I am theme Changer"

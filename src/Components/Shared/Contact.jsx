@@ -7,7 +7,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-6 mt-20 border border-gray-400  dark:bg-gray-100 dark:text-gray-900">
+    <section className=" mb-10 border-4 border-orange-300 shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
       <div className=" space-y-3 grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
           <h1 className=" text-2xl lg:text-4xl mb-4 lg:mb-6 font-bold ">
@@ -85,9 +85,9 @@ const Contact = () => {
             ></textarea>
           </label>
           <input
-            className="px-8 py-3 text-lg btn btn-info rounded"
+            className="px-8 py-3 text-lg btn btn-info rounded-3xl"
             type="submit"
-            value="Submit"
+            value="Send"
           />
         </form>
       </div>

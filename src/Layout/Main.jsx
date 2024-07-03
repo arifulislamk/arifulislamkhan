@@ -4,8 +4,7 @@ import Banner from "../Components/Shared/Banner";
 
 const Main = () => {
   return (
-    <div className=" mx-24 bg-dark  ">
-      
+    <div className=" mx-20 mt-14 bg-dark  ">
       <Banner />
       <Outlet />
       <Footer />

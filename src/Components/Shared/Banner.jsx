@@ -2,23 +2,35 @@ import { Tooltip } from "react-tooltip";
 import cv from "../../../src/assets/Blue Simple Professional CV Resume (5).pdf";
 const Banner = () => {
   return (
-    <div className=" reletive bg-black-900  flex ">
+    <div className=" border-4 border-orange-300 shadow-2xl rounded-2xl p-5 reletive bg-black-900  flex ">
       <div className="hero-content flex-col lg:flex-row gap-14">
         <img
           src="https://i.ibb.co/jgW3mxs/Picsart-24-05-06-19-42-45-708.png"
           className="max-w-sm rounded-lg shadow-2xl shadow-2xl bg-blue-200 "
         />
         <div>
-          <h1 className="text-5xl font-bold">Md. Ariful Islam</h1>
+          <h1 className="text-5xl mb-2 font-bold">Md. Ariful Islam</h1>
           <p>
             Web Devoloper || Building Website || Passionate Software Engineering
           </p>
-          <p className="py-6">
-            Hey, It`s me Md Ariful Islam. I am junior front-end web developer. I
-            can make website with react, mongoDB, express, node js ,firebase,
-            html, css and tailwind css. Currently, I am learning about C
-            programing language, data staractue,data algorithm, Oop, in my
-            university course.
+          <p className="pb-6 pt-10 text-xl">
+            <span className="">
+              Hey, it's me, Md Ariful Islam. I am a front-end web
+              developer. I can create websites using React, MongoDB, Express,
+              Node.js, Firebase, HTML, CSS, and Tailwind CSS. Currently, I am
+              learning about C programming language, data structures,
+              algorithms, and OOP in my university courses.
+            </span>
+            <br />
+            <br />
+            <span className="">
+              I am very passionate about coding. Whenever I encounter a random
+              error in any big project, I remind myself that there must be a
+              solution. Whether I solve it today or tomorrow, I feel at ease
+              because I know that as a programmer, encountering problems is part
+              of the job. Errors are bound to happen again, so I don't take them
+              too seriously. I am always ready for new challenges.
+            </span>
           </p>
           <a
             href={cv}
@@ -28,7 +40,6 @@ const Banner = () => {
           >
             Donwnload CV
           </a>
-          <button className="btn btn-info">Contact me</button>
         </div>
       </div>
       <div className=" top-0 absulate  top-0 left-0 ">

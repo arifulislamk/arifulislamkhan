@@ -24,11 +24,11 @@ const Banner = () => {
             href={cv}
             download="Ariful CV"
             target="_blank"
-            className="btn btn-primary mr-5"
+            className="btn btn-info mr-5"
           >
             Donwnload CV
           </a>
-          <button className="btn btn-primary">Contact me</button>
+          <button className="btn btn-info">Contact me</button>
         </div>
       </div>
       <div className=" top-0 absulate  top-0 left-0 ">

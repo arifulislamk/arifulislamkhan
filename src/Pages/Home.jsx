@@ -1,4 +1,5 @@
 import Contact from "../Components/Shared/Contact";
+import Education from "../Components/Shared/Education";
 import Myskils from "../Components/Shared/Myskils";
 import Projects from "../Components/Shared/Projects";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Myskils />
       <Projects />
       <Contact />
+      <Education />
     </div>
   );
 };

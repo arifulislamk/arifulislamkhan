@@ -23,8 +23,8 @@ const Projects = () => {
               <img src={project.image} alt="paceful" className=" lg:h-64" />
             </figure>
             <div className="card-body">
-              <p> {project.startDate}</p>
-              <p> {project.endDate}</p>
+              <p> Project Start : {project.startDate}</p>
+              <p> Project End : {project.endDate}</p>
               <h2 className="card-title">{project.siteName}</h2>
               <p>{project.description}</p>
               <div className="card-actions">

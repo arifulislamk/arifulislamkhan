@@ -1,7 +1,4 @@
-import facebook from "../../assets/icons/facebook.png";
-import ins from "../../assets/icons/insta.png";
-import link from "../../assets/icons/rsz_lin.png";
-import twit from "../../assets/icons/twitter.png";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer mb-2 bg-neutral rounded-3xl text-neutral-content items-center p-4">
@@ -23,24 +20,20 @@ const Footer = () => {
         </p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=61553049796138">
-          <img
-            src={facebook}
-            alt=""
-          />
-        </a>
-        <a target="_blank" href="https://www.instagram.com/ariful.i.khan.31/">
-          <img
-            src={ins}
-            alt=""
-          />
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/robin-arif/">
-          <img
-            src={link}
-            alt=""
-          />
-        </a>
+        <div className=" flex gap-4">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=61553049796138"
+          >
+            <FaFacebook className=" text-3xl text-blue-800" />
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/robin-arif/">
+            <FaLinkedin className=" text-3xl text-blue-500" />
+          </a>
+          <a target="_blank" href="https://github.com/arifulislamk">
+            <FaGithub className=" text-3xl text-dark-500" />
+          </a>
+        </div>
       </nav>
     </footer>
   );

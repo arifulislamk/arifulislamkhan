@@ -1,5 +1,9 @@
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
+import facebook from "../../assets/icons/facebook.png";
+import ins from "../../assets/icons/insta.png";
+import link from "../../assets/icons/rsz_lin.png";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -8,13 +12,13 @@ const Contact = () => {
 
   return (
     <section className=" mb-10 border-4 border-orange-300 shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
+      <h2 className=" text-center font-bold text-5xl py-10 mb-10">Contact </h2>
       <div className=" space-y-3 grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
-          <h1 className=" text-2xl lg:text-4xl mb-4 lg:mb-6 font-bold ">
-            You direct can call or email!
+          <h1 className=" text-2xl lg:text-2xl pt-5 mb-4 lg:mb-10 font-medium ">
+            You can direct call or email!
           </h1>
-          <p className="pt-2 pb-4 font-medium">For Connect Fill Up This Form</p>
-          <div className="space-y-8">
+          <div className="space-y-8 text-xl">
             <p className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +57,26 @@ const Contact = () => {
               </svg>
               <span>ariful18374@gmail.com</span>
             </p>
+            <div className=" flex gap-4">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=61553049796138"
+              >
+                <FaFacebook className=" text-3xl text-blue-800" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/ariful.i.khan.31/"
+              >
+                <FaInstagram className=" text-3xl text-red-500 " />
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/robin-arif/">
+                <FaLinkedin className=" text-3xl text-blue-500" />
+              </a>
+              <a target="_blank" href="https://github.com/arifulislamk">
+                <FaGithub className=" text-3xl text-dark-500" />
+              </a>
+            </div>
           </div>
         </div>
         <form
@@ -60,10 +84,12 @@ const Contact = () => {
           className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
         >
           <label className="block">
-            <span className=" text-2xl font-medium  ">Full name</span>
+            <span className="mb-1 text-2xl font-medium  ">
+              Your/Company Name
+            </span>
             <input
               type="text"
-              placeholder="Ariful Islam Khan"
+              placeholder="Pell Software / Ariful islam"
               className="block p-3 border border-gray-200 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
           </label>
@@ -80,12 +106,12 @@ const Contact = () => {
             <textarea
               required
               rows="3"
-              placeholder="writing here"
+              placeholder="writing here your message"
               className="block w-full p-3 border border-gray-200  rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             ></textarea>
           </label>
           <input
-            className="px-8 py-3 text-lg btn btn-info rounded-3xl"
+            className="px-8 py-3  btn btn-info text-white text-2xl rounded-3xl"
             type="submit"
             value="Send"
           />

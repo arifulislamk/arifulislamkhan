@@ -50,7 +50,7 @@ const Banner = () => {
           className="lg:ml-8 swap swap-rotate"
         >
           {/* this hidden checkbox controls the state */}
-          <input type="checkbox" className="theme-controller" value="light" />
+          <input type="checkbox" className="theme-controller" value="night" />
 
           {/* sun icon */}
           <svg

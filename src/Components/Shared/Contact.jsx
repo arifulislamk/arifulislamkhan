@@ -1,13 +1,24 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import facebook from "../../assets/icons/facebook.png";
-import ins from "../../assets/icons/insta.png";
-import link from "../../assets/icons/rsz_lin.png";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import axios from "axios";
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    toast.success("Thank you for contact me");
+    const name = e.target.name.value;
+    const message = e.target.message.value;
+    const email = e.target.email.value;
+
+    const info = { name, email, message };
+
+    axios.post("https://arifulislamkhan-server.vercel.app/contactMe", info)
+    .then((res) => {
+      console.log(res.data);
+      if(res.data.insertedId){
+        toast.success("Thank you for contact me");
+        e.target.reset();
+      }
+    });
   };
 
   return (
@@ -89,6 +100,7 @@ const Contact = () => {
             </span>
             <input
               type="text"
+              name="name"
               placeholder="Pell Software / Ariful islam"
               className="block p-3 border border-gray-200 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
@@ -97,6 +109,7 @@ const Contact = () => {
             <span className="mb-1 text-2xl font-medium  ">Email address</span>
             <input
               type="email"
+              name="email"
               placeholder="ariful18374@gmail.com"
               className="block w-full p-3 border border-gray-200  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
@@ -105,6 +118,7 @@ const Contact = () => {
             <span className="mb-1 text-2xl font-medium  ">Message</span>
             <textarea
               required
+              name="message"
               rows="3"
               placeholder="writing here your message"
               className="block w-full p-3 border border-gray-200  rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"

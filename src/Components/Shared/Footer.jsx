@@ -1,7 +1,7 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="footer mb-2 bg-neutral rounded-3xl text-neutral-content items-center p-4">
+    <footer className="footer justify-center flex flex-col-reverse pt-8 mb-2 bg-neutral rounded-3xl text-neutral-content items-center p-4">
       <aside className="grid-flow-col items-center">
         <svg
           width="36"
@@ -19,8 +19,8 @@ const Footer = () => {
           Islam Khan
         </p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <div className=" flex gap-4">
+      <nav className="grid-flow-col  md:place-self-center md:justify-self-end">
+        <div className=" flex  gap-4">
           <a
             target="_blank"
             href="https://www.facebook.com/profile.php?id=61553049796138"

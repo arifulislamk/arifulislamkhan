@@ -9,10 +9,10 @@ import css from "../../assets/icons/rsz_css.png";
 import html from "../../assets/icons/rsz_1html.png";
 const Myskils = () => {
   return (
-    <div className="border-4 mt-20 border-orange-300 shadow-2xl rounded-2xl px-5 py-20">
-      <h1 className=" text-5xl font-bold text-center  ">My Skills</h1>
-      <div className=" mt-10 mb-10 flex justify-between gap-2 ">
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl w-28 bg-gray-200">
+    <div id="target-section1" className="border mt-20 border-orange-300 shadow-2xl rounded-2xl px-5 py-10 lg:py-20">
+      <h1 className=" text-2xl lg:text-5xl font-bold text-center  ">My Skills</h1>
+      <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={html} alt="html" className="rounded-xl w-14 " />
           </figure>
@@ -21,7 +21,7 @@ const Myskils = () => {
           </h2>
         </div>
 
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={css} alt="css" className="rounded-xl w-14 " />
           </figure>
@@ -30,7 +30,7 @@ const Myskils = () => {
           </h2>
         </div>
 
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={tailwind} alt="tailwind" className="rounded-xl w-14 " />
           </figure>
@@ -38,7 +38,7 @@ const Myskils = () => {
             tailwind
           </h2>
         </div>
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={js} alt="js" className="rounded-xl w-14 " />
           </figure>
@@ -47,7 +47,7 @@ const Myskils = () => {
           </h2>
         </div>
 
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={react} alt="react" className="rounded-xl w-14 " />
           </figure>
@@ -55,7 +55,7 @@ const Myskils = () => {
             react
           </h2>
         </div>
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={nodejs} alt="nodejs" className="rounded-xl w-14 " />
           </figure>
@@ -63,7 +63,7 @@ const Myskils = () => {
             nodejs
           </h2>
         </div>
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={express} alt="express" className="rounded-xl w-14 " />
           </figure>
@@ -72,7 +72,7 @@ const Myskils = () => {
           </h2>
         </div>
 
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={mongoDB} alt="mongoDB" className="rounded-xl w-14 " />
           </figure>
@@ -80,7 +80,7 @@ const Myskils = () => {
             mongoDB
           </h2>
         </div>
-        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl w-28 bg-gray-200">
+        <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
             <img src={nextjs} alt="nextjs" className="rounded-xl w-14 " />
           </figure>

@@ -22,8 +22,8 @@ const Contact = () => {
   };
 
   return (
-    <section className=" mb-10 border-4 border-orange-300 shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
-      <h2 className=" text-center font-bold text-5xl py-10 mb-10">Contact </h2>
+    <section id="target-section3" className=" mb-10 border border-orange-300 shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
+      <h2 className=" text-center font-bold text-3xl lg:text-5xl lg:py-10 lg:mb-10">Contact </h2>
       <div className=" space-y-3 grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
           <h1 className=" text-2xl lg:text-2xl pt-5 mb-4 lg:mb-10 font-medium ">

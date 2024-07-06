@@ -1,15 +1,15 @@
 const Education = () => {
   return (
-    <div className="border-4 mb-10 p-10 border-orange-300 shadow-2xl rounded-2xl ">
+    <div id="target-section2" className="border mt-20 mb-20 p-10 border-orange-300 shadow-2xl rounded-2xl ">
       <div>
         <section className="dark:bg-gray-100 dark:text-gray-800">
           <div className=" relative  container flex flex-col justify-center p-6 mx-auto lg:flex-row lg:justify-between">
             <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-              <h1 className="text-3xl font-bold leading-none sm:text-3xl">
+              <h1 className="text-xl font-bold leading-none sm:text-3xl">
                 World University
                 <span className="dark:text-violet-600"> Of </span>Bangladesh
               </h1>
-              <div className=" text-xl">
+              <div className=" text-left  lg:text-xl  mt-3 lg:mt-6">
                 <h4>Department : Computer Science and Engineering</h4>
                 <h4>Running Semister : 6th</h4>
                 <h4>Average Cgpa : 3.20 (out of 4)</h4>
@@ -17,11 +17,12 @@ const Education = () => {
                 <h4>Location : Uttara, Dhaka</h4>
               </div>
             </div>
+            <div className=" hidden lg:block border border-gray-400 h-60 w-0"></div>
             <div className="flex flex-col justify-center mb-5 p-3 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-              <h1 className="text-3xl font-bold leading-none sm:text-3xl">
+              <h1 className="text-xl font-bold leading-none sm:text-3xl">
                 I.E.S School And College
               </h1>
-              <div className=" text-xl">
+              <div className=" text-left  lg:text-xl  mt-3 lg:mt-6">
                 <h4>Section : Science</h4>
                 <h4>Gpa : 4.75 (out of 5)</h4>
                 <h4>Completed H.S.C: 2021</h4>

@@ -26,7 +26,7 @@ const Contact = () => {
       <h2 className=" text-center font-bold text-3xl lg:text-5xl lg:py-10 lg:mb-10">Contact </h2>
       <div className=" space-y-3 flex flex-col-reverse md:grid md:grid-cols-2 max-w-6xl  px-6 mx-auto lg:px-8 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
-          <h1 className=" text-2xl lg:text-2xl pt-5 mb-4 lg:mb-10 font-medium ">
+          <h1 className=" text-2xl text-center md:text-left pt-5 mb-4 lg:mb-10 font-medium ">
             You can direct call or email!
           </h1>
           <div className="space-y-8 text-xl">
@@ -93,40 +93,40 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
+          className="flex flex-col py-6 space-y-3 md:space-y-6 md:py-0 md:px-6"
         >
           <label className="block">
-            <span className="mb-1 text-2xl font-medium  ">
+            <span className="mb-1 text-xl md:text-2xl font-medium  ">
               Your/Company Name
             </span>
             <input
               type="text"
               name="name"
               placeholder="Pell Software / Ariful islam"
-              className="block p-3 border border-gray-200 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+              className="block p-2 md:p-3 border border-gray-200 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
           </label>
           <label className="block">
-            <span className="mb-1 text-2xl font-medium  ">Email address</span>
+            <span className="mb-1 text-xl font-medium  ">Email address</span>
             <input
               type="email"
               name="email"
               placeholder="ariful18374@gmail.com"
-              className="block w-full p-3 border border-gray-200  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+              className="block w-full p-2 md:p-3 border border-gray-200  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
           </label>
           <label className="block">
-            <span className="mb-1 text-2xl font-medium  ">Message</span>
+            <span className="mb-1 text-xl font-medium  ">Message</span>
             <textarea
               required
               name="message"
               rows="3"
               placeholder="writing here your message"
-              className="block w-full p-3 border border-gray-200  rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+              className="block w-full p-2 md:p-3 border border-gray-200  rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             ></textarea>
           </label>
           <input
-            className="px-8 py-3  btn btn-info text-white text-2xl rounded-3xl"
+            className="md:px-8  btn btn-info text-white text-xl md:text-2xl rounded-3xl"
             type="submit"
             value="Send"
           />

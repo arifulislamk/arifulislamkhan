@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row lg:gap-14">
         <img
           src="https://i.ibb.co/jbTqvWW/20240705-182233.png"
-          className="lg:max-w-sm w-1/2 rounded-xl shadow-2xl bg-blue-200 "
+          className="lg:max-w-sm w-1/2 h-full rounded-xl md:shadow-2xl md:bg-blue-200 "
         />
         <div>
           <h1 className=" text-3xl lg:text-5xl mb-2 text-center lg:text-left font-bold">Md. Ariful Islam</h1>

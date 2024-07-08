@@ -9,8 +9,13 @@ import css from "../../assets/icons/rsz_css.png";
 import html from "../../assets/icons/rsz_1html.png";
 const Myskils = () => {
   return (
-    <div id="target-section1" className="border mt-20 border-orange-300 shadow-2xl rounded-2xl px-5 py-10 lg:py-20">
-      <h1 className=" text-2xl lg:text-5xl font-bold text-center  ">My Skills</h1>
+    <div
+      id="target-section1"
+      className="border mt-20 border-orange-300 shadow-2xl rounded-2xl px-5 py-10 lg:py-20"
+    >
+      <h1 className=" text-2xl lg:text-5xl font-bold text-center  ">
+        My Skills
+      </h1>
       <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">

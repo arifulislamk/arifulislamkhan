@@ -12,7 +12,7 @@ const Projects = () => {
       id="target-section4"
       className=" border border-orange-300 shadow-2xl rounded-2xl py-6 px-3 lg:px-4 mt-20"
     >
-      <h2 className=" text-center text-3xl lg:text-5xl font-bold">
+      <h2 className=" text-center font-roboto text-3xl lg:text-5xl font-bold">
         My Projects
       </h2>
       <div className="  flex flex-col lg:flex-row mt-8 lg:mt-14 gap-4 lg:justify-between ">

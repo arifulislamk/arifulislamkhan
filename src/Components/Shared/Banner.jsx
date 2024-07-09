@@ -16,10 +16,10 @@ const Banner = () => {
           className="lg:max-w-sm w-1/2 h-full rounded-xl md:shadow-2xl md:bg-blue-200 "
         />
         <div>
-          <h1 className=" text-3xl lg:text-5xl mb-2 text-center lg:text-left font-bold">
-            Md. Ariful Islam
+          <h1 className=" text-3xl lg:text-5xl mb-2 text-center font-roboto lg:text-left font-bold">
+            Md Ariful Islam
           </h1>
-          <h2 className=" text-center lg:text-left lg:text-2xl font-bold text-blue-400">{text}</h2>
+          <h2 className=" text-center lg:text-left lg:text-2xl font-algeria font-bold text-blue-400">{text}</h2>
           <p className="pb-6 pt-3 lg:pt-10 lg:text-xl">
             <span className="">
               Hey, it's me, Md Ariful Islam. I am a front-end web developer. I

@@ -31,7 +31,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className=" ">
+    <div className=" font-roboto">
       <div className="navbar border border-orange-400 shadow-xl rounded-lg mb-3 lg:mb-8 ">
         <div className="navbar-start">
           <div className="dropdown">

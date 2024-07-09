@@ -1,5 +1,5 @@
 import { useTypewriter } from "react-simple-typewriter";
-import cv from "../../../src/assets/Blue Simple Professional CV Resume (5).pdf";
+import cv from "../../../src/assets/Ariful CV For Job.pdf";
 const Banner = () => {
   const [text] = useTypewriter({
     words: [
@@ -12,7 +12,7 @@ const Banner = () => {
     <div className=" border border-orange-300 shadow-2xl rounded-2xl lg:p-5 reletive bg-black-900  flex ">
       <div className="hero-content flex-col lg:flex-row lg:gap-14">
         <img
-          src="https://i.ibb.co/jbTqvWW/20240705-182233.png"
+          src="https://i.ibb.co/BVBfgP1/rsz-3rsz-pic-1-1-1.png"
           className="lg:max-w-sm w-1/2 h-full rounded-xl md:shadow-2xl md:bg-blue-200 "
         />
         <div>

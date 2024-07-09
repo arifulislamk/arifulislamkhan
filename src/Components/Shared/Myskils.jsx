@@ -19,7 +19,7 @@ const Myskils = () => {
       <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={html} alt="html" className="rounded-xl w-14 " />
+            <img src={html} alt="html" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title mt-2 text-accent-content text-center">
             Html
@@ -28,7 +28,7 @@ const Myskils = () => {
 
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={css} alt="css" className="rounded-xl w-14 " />
+            <img src={css} alt="css" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             css
@@ -37,7 +37,7 @@ const Myskils = () => {
 
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={tailwind} alt="tailwind" className="rounded-xl w-14 " />
+            <img src={tailwind} alt="tailwind" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             tailwind
@@ -45,7 +45,7 @@ const Myskils = () => {
         </div>
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={js} alt="js" className="rounded-xl w-14 " />
+            <img src={js} alt="js" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             Vanilla JavaScript
@@ -54,7 +54,7 @@ const Myskils = () => {
 
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={react} alt="react" className="rounded-xl w-14 " />
+            <img src={react} alt="react" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             react
@@ -62,7 +62,7 @@ const Myskils = () => {
         </div>
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={nodejs} alt="nodejs" className="rounded-xl w-14 " />
+            <img src={nodejs} alt="nodejs" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             nodejs
@@ -70,7 +70,7 @@ const Myskils = () => {
         </div>
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={express} alt="express" className="rounded-xl w-14 " />
+            <img src={express} alt="express" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             express
@@ -79,7 +79,7 @@ const Myskils = () => {
 
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={mongoDB} alt="mongoDB" className="rounded-xl w-14 " />
+            <img src={mongoDB} alt="mongoDB" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             mongoDB
@@ -87,7 +87,7 @@ const Myskils = () => {
         </div>
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center  btn-base-300  shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">
-            <img src={nextjs} alt="nextjs" className="rounded-xl w-14 " />
+            <img src={nextjs} alt="nextjs" className="rounded-xl md:w-14 " />
           </figure>
           <h2 className="card-title text-accent-content mt-2 text-center">
             nextjs

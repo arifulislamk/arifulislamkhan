@@ -26,7 +26,7 @@ const Contact = () => {
       <h2 className=" text-center font-bold text-3xl lg:text-5xl lg:py-10 lg:mb-10">Contact </h2>
       <div className=" space-y-3 flex flex-col-reverse md:grid md:grid-cols-2 max-w-6xl  px-6 mx-auto lg:px-8 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
-          <h1 className=" text-2xl text-center md:text-left pt-5 mb-4 lg:mb-10 font-medium ">
+          <h1 className=" text-xl md:text-2xl text-center md:text-left pt-5 mb-4 lg:mb-10 font-medium ">
             You can direct call or email!
           </h1>
           <div className="space-y-8 text-xl">
@@ -68,7 +68,7 @@ const Contact = () => {
               </svg>
               <span>ariful18374@gmail.com</span>
             </p>
-            <div className=" flex gap-4">
+            <div className=" flex justify-center md:justify-start gap-4">
               <a
                 target="_blank"
                 href="https://www.facebook.com/profile.php?id=61553049796138"

@@ -1,9 +1,9 @@
 const Education = () => {
   return (
-    <div id="target-section2" className="border mt-20 mb-20 p-10 border-orange-300 shadow-2xl rounded-2xl ">
+    <div id="target-section2" className="border mt-20 mb-20 md:p-10 border-orange-300 shadow-2xl rounded-2xl ">
       <div>
         <section className="dark:bg-gray-100 dark:text-gray-800">
-          <div className=" relative  container flex flex-col justify-center p-6 mx-auto lg:flex-row lg:justify-between">
+          <div className=" relative  container flex flex-col justify-center p-2 md:p-6 mx-auto lg:flex-row lg:justify-between">
             <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
               <h1 className="text-xl font-bold leading-none sm:text-3xl">
                 World University

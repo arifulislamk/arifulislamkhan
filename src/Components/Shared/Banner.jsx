@@ -13,16 +13,16 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row lg:gap-14">
         <img
           src="https://i.ibb.co/BVBfgP1/rsz-3rsz-pic-1-1-1.png"
-          className="lg:max-w-sm w-1/2 h-full rounded-xl md:shadow-2xl md:bg-blue-200 "
+          className="lg:max-w-sm w-1/2 h-full object-cover rounded-xl md:shadow-2xl md:bg-blue-200 "
         />
         <div>
           <h1 className=" text-3xl lg:text-5xl mb-2 text-center font-roboto lg:text-left font-bold">
             Md Ariful Islam
           </h1>
-          <h2 className=" text-center lg:text-left lg:text-2xl font-algeria font-bold text-blue-400">{text}</h2>
+          <h2 className=" text-center lg:text-left lg:text-2xl font-algeria font-bold text-blue-400 md:w-[730px] h-10 ">{text}</h2>
           <p className="pb-6 pt-3 lg:pt-10 lg:text-xl">
             <span className="">
-              Hey, it's me, Md Ariful Islam. I am a front-end web developer. I
+              Hey, it`s me, Md Ariful Islam. I am a front-end web developer. I
               can create websites using React, MongoDB, Express, Node.js,
               Firebase, HTML, CSS, and Tailwind CSS. Currently, I am learning
               about C programming language, data structures, algorithms, and OOP
@@ -35,7 +35,7 @@ const Banner = () => {
               error in any big project, I remind myself that there must be a
               solution. Whether I solve it today or tomorrow, I feel at ease
               because I know that as a programmer, encountering problems is part
-              of the job. Errors are bound to happen again, so I don't take them
+              of the job. Errors are bound to happen again, so I don`t take them
               too seriously. I am always ready for new challenges.
             </span>
           </p>

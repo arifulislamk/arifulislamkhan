@@ -25,10 +25,10 @@ const Footer = () => {
             target="_blank"
             href="https://www.facebook.com/profile.php?id=61553049796138"
           >
-            <FaFacebook className=" text-3xl text-blue-800" />
+            <FaFacebook className=" text-3xl " />
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/robin-arif/">
-            <FaLinkedin className=" text-3xl text-blue-500" />
+            <FaLinkedin className=" text-3xl " />
           </a>
           <a target="_blank" href="https://github.com/arifulislamk">
             <FaGithub className=" text-3xl text-dark-500" />

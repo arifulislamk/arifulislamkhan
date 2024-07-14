@@ -1,5 +1,5 @@
 import { useTypewriter } from "react-simple-typewriter";
-import cv from "../../../src/assets/Ariful CV For Job.pdf";
+import cv from "../assets/Ariful CV For Job.pdf";
 const Banner = () => {
   const [text] = useTypewriter({
     words: [

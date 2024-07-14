@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="target-section3" className=" mb-10 border border-orange-300 shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
+    <section id="target-section3" className=" mb-10 border border-[#111212] shadow-2xl rounded-2xl py-6 mt-20 dark:bg-gray-100 dark:text-gray-900">
       <h2 className=" text-center font-bold font-roboto text-3xl lg:text-5xl lg:py-10 lg:mb-10">Contact </h2>
       <div className=" space-y-3 flex flex-col-reverse md:grid md:grid-cols-2 max-w-6xl  px-6 mx-auto lg:px-8 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">

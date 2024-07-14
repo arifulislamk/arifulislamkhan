@@ -1,8 +1,9 @@
-import Banner from "../Components/Shared/Banner";
-import Contact from "../Components/Shared/Contact";
-import Education from "../Components/Shared/Education";
-import Myskils from "../Components/Shared/Myskils";import Navbar from "../Components/Shared/Navbar";
-import Projects from "../Components/Shared/Projects";
+import Banner from "../Components/Banner";
+import Contact from "../Components/Contact";
+import Education from "../Components/Education";
+import Myskils from "../Components/Myskils";
+import Navbar from "../Components/Navbar";
+import Projects from "../Components/Projects";
 
 const Home = () => {
   return (

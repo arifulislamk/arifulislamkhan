@@ -1,12 +1,12 @@
-import js from "../../assets/icons/js.png";
-import mongoDB from "../../assets/icons/mongo.png";
-import nodejs from "../../assets/icons/nodejs.png";
-import react from "../../assets/icons/react.png";
-import nextjs from "../../assets/icons/rsz_1nextjs.png";
-import tailwind from "../../assets/icons/rsz_tailwind.png";
-import express from "../../assets/icons/rsz_express.png";
-import css from "../../assets/icons/rsz_css.png";
-import html from "../../assets/icons/rsz_1html.png";
+import js from "../assets/icons/js.png";
+import mongoDB from "../assets/icons/mongo.png";
+import nodejs from "../assets/icons/nodejs.png";
+import react from "../assets/icons/react.png";
+import nextjs from "../assets/icons/rsz_1nextjs.png";
+import tailwind from "../assets/icons/rsz_tailwind.png";
+import express from "../assets/icons/rsz_express.png";
+import css from "../assets/icons/rsz_css.png";
+import html from "../assets/icons/rsz_1html.png";
 const Myskils = () => {
   return (
     <div

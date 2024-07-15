@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div
       id="target-section4"
-      className=" border border-orange-300 shadow-2xl rounded-2xl py-6 px-3 lg:px-4 mt-20"
+      className=" border border-[#5453a2]  rounded-2xl py-6 px-3 lg:px-4 mt-20"
     >
       <h2 className=" text-center font-roboto text-3xl lg:text-5xl font-bold">
         My Projects
@@ -19,7 +19,7 @@ const Projects = () => {
         {project.map((project, inx) => (
           <div
             key={inx}
-            className="card bg-base-100 border-2 border-red-300  lg:w-1/3 shadow-xl"
+            className="card bg-base-100 border border-[#5453a2]  lg:w-1/3 shadow-xl"
           >
             <figure>
               <img src={project.image} alt="paceful" className=" lg:h-64" />
@@ -38,17 +38,17 @@ const Projects = () => {
                 {project.Features}
               </p>
               <div className="card-actions">
-                <button className="btn  btn-info">
+                <button className="btn  bg-[#8c98ce] text-white">
                   <a target="_blank" href={project.gitServer}>
                     Github Server
                   </a>
                 </button>
-                <button className="btn  btn-info">
+                <button className="btn bg-[#8c98ce] text-white">
                   <a target="_blank" href={project.gitClient}>
                     Github Client
                   </a>
                 </button>
-                <button className="btn  btn-info">
+                <button className="btn bg-[#8c98ce] text-white">
                   <a target="_blank" href={project.liveLink}>
                     Live Site
                   </a>

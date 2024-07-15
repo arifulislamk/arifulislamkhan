@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div id="target-section2" className="border mt-20 mb-20 md:p-10 border-orange-300 shadow-2xl rounded-2xl ">
+    <div id="target-section2" className=" mt-20 mb-20 md:p-10 border border-[#5453a2] shadow-xl rounded-2xl ">
       <div>
         <section className="dark:bg-gray-100 dark:text-gray-800">
           <div className=" relative  container flex flex-col justify-center p-2 md:p-6 mx-auto lg:flex-row lg:justify-between">

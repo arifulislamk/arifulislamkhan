@@ -9,7 +9,7 @@ const Banner = () => {
   });
 
   return (
-    <div className=" border border-[#5453a2] shadow-2xl rounded-2xl lg:p-5 reletive bg-black-900  flex ">
+    <div className=" border border-[#5453a2] shadow-xl rounded-2xl lg:p-5 reletive bg-black-900  flex ">
       <div className="hero-content flex-col lg:flex-row lg:gap-14">
         <img
           src="https://i.ibb.co/BVBfgP1/rsz-3rsz-pic-1-1-1.png"

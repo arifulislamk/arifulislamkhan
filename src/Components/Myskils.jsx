@@ -11,7 +11,7 @@ const Myskils = () => {
   return (
     <div
       id="target-section1"
-      className="border mt-20 border-orange-300 shadow-2xl rounded-2xl px-5 py-10 lg:py-20"
+      className="mt-20 border border-[#5453a2] shadow-xl rounded-2xl px-5 py-10 lg:py-20"
     >
       <h1 className=" text-2xl font-roboto lg:text-5xl font-bold text-center  ">
         My Skills

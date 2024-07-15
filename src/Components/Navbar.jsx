@@ -32,7 +32,7 @@ const Navbar = () => {
   );
   return (
     <div className=" pt-2 font-roboto">
-      <div className="navbar border border-[#111212] shadow-xl rounded-lg mb-3 lg:mb-8 ">
+      <div className="navbar border border-[#5453a2] shadow-xl rounded-lg mb-3 lg:mb-8 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -102,7 +102,7 @@ const Navbar = () => {
           <Link
             smooth={true}
             duration={500}
-            className="cursor-pointer btn btn-info lg:text-xl"
+            className="cursor-pointer btn btn-[#768180] lg:text-xl"
             to="target-section3"
           >
             Contact

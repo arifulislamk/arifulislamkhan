@@ -1,5 +1,6 @@
 import { useTypewriter } from "react-simple-typewriter";
 import cv from "../assets/Ariful CV For Job.pdf";
+import resume from "../assets/Ariful-resume.pdf";
 const Banner = () => {
   const [text] = useTypewriter({
     words: [
@@ -47,6 +48,14 @@ const Banner = () => {
               className="btn bg-[#8c98ce] text-white mr-5 "
             >
               Donwnload CV
+            </a>
+            <a
+              href={resume}
+              download="Ariful RESUME"
+              target="_blank"
+              className="btn bg-[#8c98ce] text-white mr-5 "
+            >
+              Donwnload Resume
             </a>
           </p>
         </div>

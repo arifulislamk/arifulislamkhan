@@ -47,7 +47,7 @@ const Banner = () => {
               target="_blank"
               className="btn bg-[#8c98ce] text-white mr-5 "
             >
-              Donwnload CV
+              Download CV
             </a>
             <a
               href={resume}
@@ -55,7 +55,7 @@ const Banner = () => {
               target="_blank"
               className="btn bg-[#8c98ce] text-white mr-5 "
             >
-              Donwnload Resume
+              Download Resume
             </a>
           </p>
         </div>

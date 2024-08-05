@@ -102,7 +102,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Pell Software / Ariful islam"
+              placeholder="Ariful islam"
               className="block p-2 md:p-3 border border-gray-200 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             />
           </label>
@@ -121,7 +121,7 @@ const Contact = () => {
               required
               name="message"
               rows="3"
-              placeholder="writing here your message"
+              placeholder="writing here ........."
               className="block w-full p-2 md:p-3 border border-gray-200  rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             ></textarea>
           </label>

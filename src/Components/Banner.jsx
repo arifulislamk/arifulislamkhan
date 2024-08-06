@@ -40,12 +40,12 @@ const Banner = () => {
               too seriously. I am always ready for new challenges.
             </span>
           </p>
-          <p className=" text-center lg:text-left">
+          <p className=" text-center justify-center items-center flex flex-col lg:flex-row lg:text-left">
             <a
               href={cv}
               download="Ariful CV"
               target="_blank"
-              className="btn bg-[#8c98ce] text-white mr-5 "
+              className="btn w-1/2 bg-[#8c98ce] text-white lg:mr-5 "
             >
               Download CV
             </a>
@@ -53,7 +53,7 @@ const Banner = () => {
               href={resume}
               download="Ariful RESUME"
               target="_blank"
-              className="btn bg-[#8c98ce] text-white mr-5 "
+              className="btn w-1/2 bg-[#8c98ce] text-white "
             >
               Download Resume
             </a>

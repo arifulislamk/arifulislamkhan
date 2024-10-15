@@ -23,7 +23,7 @@ const Banner = () => {
           <h2 className=" text-center lg:text-left lg:text-2xl font-algeria font-bold text-[#8c98ce] md:w-[730px] h-10 ">{text}</h2>
           <p className="pb-6 pt-3 lg:pt-10 lg:text-xl">
             <span className="">
-              Hey, it`s me, Md Ariful Islam. I am a front-end web developer. I
+              Hey, it`s me, Md Ariful Islam. I am a competetive programmer and web developer. I
               can create websites using React, MongoDB, Express, Node.js,
               Firebase, HTML, CSS, and Tailwind CSS. Currently, I am learning
               about C programming language, data structures, algorithms, and OOP

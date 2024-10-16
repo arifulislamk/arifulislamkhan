@@ -16,6 +16,13 @@ const Myskils = () => {
       <h1 className=" text-2xl font-roboto lg:text-5xl font-bold text-center  ">
         My Skills
       </h1>
+      <div>
+        <h3 className=" text-center text-2xl mt-4">Competetive Programming Skill</h3>
+        <br />
+        <p className=" text-2xl font-medium">Links --</p>
+        <p> <a rel="stylesheet" href="https://www.hackerrank.com/profile/ariful18374">HakerRank</a></p>
+        <p> <a href="https://codeforces.com/profile/ariful18374">CodeForces</a>  </p>
+      </div>
       <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">
         <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl lg:w-28 bg-gray-200">
           <figure className="">

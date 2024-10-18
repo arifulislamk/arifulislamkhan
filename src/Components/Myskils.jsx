@@ -17,58 +17,76 @@ const Myskils = () => {
       <h1 className=" text-2xl font-roboto lg:text-5xl font-bold text-center  ">
         My Skills
       </h1>
-      <div>
-        <h3 className=" text-center text-4xl mt-20">Competetive Programming</h3>
+      <div className=" space-y-2">
+        <h3 className=" text-center text-4xl mt-20">
+          Competitive Programming Experience
+        </h3>
         <br />
-
-        <div className=" flex justify-center gap-20 my-7">
-          <div className="card card-compact bg-base-100 w-60 shadow-xl">
-            <figure>
-              <img src="https://i.ibb.co.com/6PY3t6y/h.png" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">HackerRank Profile</h2>
-              <p>
-                Here you can see Competetive Programming Profile of Ariful Islam
-                Khan
-              </p>
-              <div className="card-actions justify-end">
-                <Link
-                  rel="stylesheet"
-                  to={"https://www.hackerrank.com/profile/ariful18374"}
-                >
-                  <button className="btn btn-primary font-semibold text-xl">
-                    Go
+        <p className="px-14 pb-10">
+          As part of my Bachelor of Science in Computer Science and Engineering
+          (B.Sc CSE), I have completed 6 semesters, during which I gained
+          proficiency in various fundamental courses, such as Introduction to C,
+          Data Structures, Algorithms, and Object-Oriented Programming (OOP).
+          Throughout these courses, I solved numerous problems, sharpening my
+          skills in computational thinking and algorithm optimization. <br />{" "}
+          <br />I also participated in several competitive programming contests
+          organized by my university’s CSE department. I achieved notable
+          rankings, securing 3rd position on Day 1 and 10th position on the
+          final Day 5 of a multi-day programming contest. These competitions
+          have further honed my problem-solving abilities, enabling me to work
+          efficiently under pressure and think critically in dynamic
+          environments.
+        </p>
+        <div className=" py-7 px-14 flex justify-center gap-20">
+          <a
+            href="https://www.hackerrank.com/profile/ariful18374"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="card card-compact bg-base-100 shadow-xl">
+              <figure>
+                <img src="https://i.ibb.co.com/6PY3t6y/h.png" alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">HackerRank Profile</h2>
+                <p>
+                  Here you can see Competetive Programming Profile of Ariful
+                  Islam Khan
+                </p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary font-semibold">
+                    See more
                   </button>
-                </Link>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact bg-base-100 w-60 shadow-xl">
-            <figure>
-              <img src="https://i.ibb.co.com/ySw3qzg/c.png" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">CodeForce Profile</h2>
-              <p>
-                Here you can see Competetive Programming Profile of Ariful Islam
-                Khan
-              </p>
-              <div className="card-actions justify-end">
-                <Link
-                  rel="stylesheet"
-                  to={"https://codeforces.com/profile/ariful18374"}
-                >
-                  <button className="btn btn-primary font-semibold text-xl">
-                    Go
+          </a>
+          <a
+          href="https://codeforces.com/profile/ariful18374"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+            <div className="card card-compact bg-base-100 shadow-xl">
+              <figure>
+                <img src="https://i.ibb.co.com/ySw3qzg/c.png" alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">CodeForce Profile</h2>
+                <p>
+                  Here you can see Competetive Programming Profile of Ariful
+                  Islam Khan
+                </p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary font-semibold">
+                    See more
                   </button>
-                </Link>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-      <div>
+      <div className=" mt-14">
         <h3 className=" text-center text-4xl mt-20">Web Development skills</h3>
 
         <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">

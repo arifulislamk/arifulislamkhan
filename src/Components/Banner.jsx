@@ -4,7 +4,7 @@ import resume from "../assets/Ariful-resume.pdf";
 const Banner = () => {
   const [text] = useTypewriter({
     words: [
-      "Web Devoloper || Building Website || Passionate Software Engineering",
+      "Web Devoloper || Competitive Programmer || Passionate Software Engineering",
     ],
     loop: 0,
   });

@@ -94,7 +94,7 @@ const Myskils = () => {
             <figure className="">
               <img src={html} alt="html" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title mt-2 text-accent-content text-center">
+            <h2 className="card-title text-black mt-2  text-center">
               Html
             </h2>
           </div>
@@ -103,7 +103,7 @@ const Myskils = () => {
             <figure className="">
               <img src={css} alt="css" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               css
             </h2>
           </div>
@@ -116,7 +116,7 @@ const Myskils = () => {
                 className="rounded-xl md:w-14 "
               />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               tailwind
             </h2>
           </div>
@@ -124,7 +124,7 @@ const Myskils = () => {
             <figure className="">
               <img src={js} alt="js" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               Vanilla JavaScript
             </h2>
           </div>
@@ -133,7 +133,7 @@ const Myskils = () => {
             <figure className="">
               <img src={react} alt="react" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               react
             </h2>
           </div>
@@ -141,7 +141,7 @@ const Myskils = () => {
             <figure className="">
               <img src={nodejs} alt="nodejs" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               nodejs
             </h2>
           </div>
@@ -153,7 +153,7 @@ const Myskils = () => {
                 className="rounded-xl md:w-14 "
               />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               express
             </h2>
           </div>
@@ -166,7 +166,7 @@ const Myskils = () => {
                 className="rounded-xl md:w-14 "
               />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               mongoDB
             </h2>
           </div>
@@ -174,7 +174,7 @@ const Myskils = () => {
             <figure className="">
               <img src={nextjs} alt="nextjs" className="rounded-xl md:w-14 " />
             </figure>
-            <h2 className="card-title text-accent-content mt-2 text-center">
+            <h2 className="card-title text-black mt-2 text-center">
               nextjs
             </h2>
           </div>

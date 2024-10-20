@@ -18,11 +18,11 @@ const Myskils = () => {
         My Skills
       </h1>
       <div className=" space-y-2">
-        <h3 className=" text-center text-4xl mt-20">
+        <h3 className=" text-center text-2xl lg:text-4xl mt-4 lg:mt-20">
           Competitive Programming Experience
         </h3>
         <br />
-        <p className="px-14 pb-10">
+        <p className="lg:px-14 lg:pb-10">
           As part of my Bachelor of Science in Computer Science and Engineering
           (B.Sc CSE), I have completed 6 semesters, during which I gained
           proficiency in various fundamental courses, such as Introduction to C,
@@ -37,7 +37,7 @@ const Myskils = () => {
           efficiently under pressure and think critically in dynamic
           environments.
         </p>
-        <div className=" py-7 px-14 flex justify-center gap-20">
+        <div className=" py-7 lg:px-14 flex flex-col lg:flex-row justify-center gap-5 lg:gap-20">
           <a
             href="https://www.hackerrank.com/profile/ariful18374"
             target="_blank"
@@ -87,7 +87,7 @@ const Myskils = () => {
         </div>
       </div>
       <div className=" mt-14">
-        <h3 className=" text-center text-4xl mt-20">Web Development skills</h3>
+        <h3 className=" text-center text-2xl lg:text-4xl mt-20">Web Development Skills</h3>
 
         <div className=" mt-10 mb-10 grid grid-cols-2 lg:flex justify-between gap-2 ">
           <div className="p-2 rounded-3xl flex flex-col items-center justify-center   btn-base-300 shadow-5xl lg:w-28 bg-gray-200">

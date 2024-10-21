@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner";
+import Certification from "../Components/Certification";
 import Contact from "../Components/Contact";
 import Education from "../Components/Education";
 import Myskils from "../Components/Myskils";
@@ -13,6 +14,7 @@ const Home = () => {
       <Myskils />
       <Projects />
       <Education />
+      <Certification />
       <Contact />
     </div>
   );

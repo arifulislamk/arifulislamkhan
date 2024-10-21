@@ -21,6 +21,14 @@ const Navbar = () => {
         <li>Education</li>
       </Link>
       <Link
+        to="target-section-achievements"
+        smooth={true}
+        duration={500}
+        className=" hover:bg-info p-2 rounded-lg cursor-pointer"
+      >
+        <li>Certifications & Achievements</li>
+      </Link>
+      <Link
         to="target-section4"
         smooth={true}
         duration={500}

@@ -13,7 +13,7 @@ const Banner = () => {
     <div className=" border border-[#5453a2] shadow-xl rounded-2xl lg:p-5 reletive bg-black-900  flex ">
       <div className="hero-content flex-col lg:flex-row lg:gap-14">
         <img
-          src="https://i.ibb.co/BVBfgP1/rsz-3rsz-pic-1-1-1.png"
+          src="https://i.ibb.co.com/NNCjKyg/IMG-20240113-143845-1.png"
           className="lg:max-w-sm w-1/2 h-full object-cover rounded-xl md:shadow-xl "
         />
         <div>

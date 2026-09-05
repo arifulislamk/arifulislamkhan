@@ -2,36 +2,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.reveal {
-  opacity: 0;
-  transition:
-    opacity 2s ease,
-    transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+
+html{
+scroll-behavior:smooth;
+overflow-x:hidden;
 }
 
-.reveal[data-direction="left"] {
-  transform: translateX(-100px);
+body{
+margin:0;
+font-family:"Inter",sans-serif;
+overflow-x:hidden;
 }
 
-.reveal[data-direction="right"] {
-  transform: translateX(100px);
+.reveal{
+opacity:0;
+transform:translate3d(var(--reveal-x),0,0);
+transition:opacity 2s ease,transform 2s cubic-bezier(0.16,1,0.3,1);
+will-change:transform,opacity;
 }
 
-.reveal.show {
-  opacity: 1;
-  transform: translateX(0);
+.reveal.show{
+opacity:1;
+transform:translate3d(0,0,0);
 }
 
-@media (max-width: 640px) {
-  .reveal[data-direction="left"] {
-    transform: translateX(-40px);
-  }
+@media(max-width:640px){
+.reveal{
+--reveal-x:30px;
+}
 
-  .reveal[data-direction="right"] {
-    transform: translateX(40px);
-  }
-
-  .reveal.show {
-    transform: translateX(0);
-  }
+.reveal[style*="-40px"]{
+--reveal-x:-30px;
+}
 }

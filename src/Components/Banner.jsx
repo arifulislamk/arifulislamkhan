@@ -5,7 +5,7 @@ import resume from "../assets/Ariful-resume.pdf";
 const Banner = () => {
   const [text] = useTypewriter({
     words: [
-      "Web Devoloper || Competitive Programmer || Passionate Software Engineering",
+      "Software Engineer || Competitive Programmer",
     ],
     loop: 0,
   });
@@ -42,10 +42,10 @@ const Banner = () => {
             {text}
           </h2>
 
-          <p className="pb-6 pt-6 text-center md:text-left  lg:pt-10 lg:text-xl">
+          <p className="pb-6 pt-2 text-center md:text-left  md:pt-6 lg:text-xl">
             <span>
-              Hey, it`s me, Md Ariful Islam. I am a competetive programmer and
-              web developer. I can create websites using React, MongoDB,
+              Hey, it`s me, Md Ariful Islam. I am a Software Engineer and
+              competitive programmer. I can create websites using React, MongoDB,
               Express, Node.js, Firebase, HTML, CSS, and Tailwind CSS. Currently,
               I am learning about C programming language, data structures,
               algorithms, and OOP in my university courses.

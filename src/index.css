@@ -1,4 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 2s ease,
+    transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal[data-direction="left"] {
+  transform: translateX(-100px);
+}
+
+.reveal[data-direction="right"] {
+  transform: translateX(100px);
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 640px) {
+  .reveal[data-direction="left"] {
+    transform: translateX(-40px);
+  }
+
+  .reveal[data-direction="right"] {
+    transform: translateX(40px);
+  }
+
+  .reveal.show {
+    transform: translateX(0);
+  }
+}

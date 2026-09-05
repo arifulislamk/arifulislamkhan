@@ -12,13 +12,10 @@ const Myskils = () => {
   return (
     <div
       id="target-section1"
-      className="mt-20 border border-[#5453a2] shadow-xl rounded-2xl px-5 py-10 lg:py-20"
+      className="mt-20 border border-[#5453a2] shadow-xl rounded-2xl px-5 py-10 lg:py-10"
     >
-      <h1 className=" text-2xl font-roboto lg:text-5xl font-bold text-center  ">
-        My Skills
-      </h1>
       <div className=" space-y-2">
-        <h3 className=" text-center text-2xl lg:text-4xl mt-4 lg:mt-20">
+        <h3 className=" text-center text-2xl lg:text-4xl mt-4 lg:mt-2">
           Competitive Programming Experience
         </h3>
         <br />

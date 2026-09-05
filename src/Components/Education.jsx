@@ -11,8 +11,8 @@ const Education = () => {
               </h1>
               <div className=" text-left  lg:text-xl  mt-3 lg:mt-6">
                 <h4>Department : Computer Science and Engineering</h4>
-                <h4>Running Semister : 6th</h4>
-                <h4>Average Cgpa : 3.20 (out of 4)</h4>
+                <h4>Running Semister : 9th</h4>
+                <h4>Average Cgpa : 3.19 (out of 4)</h4>
                 <h4>Graduation will be completed : 2026</h4>
                 <h4>Location : Uttara, Dhaka</h4>
               </div>

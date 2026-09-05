@@ -6,7 +6,7 @@ const Projects = () => {
       .then((res) => res.json())
       .then((data) => setProject(data));
   }, []);
-  console.log("data", project);
+  // console.log("data", project);
   return (
     <div
       id="target-section4"
@@ -22,34 +22,34 @@ const Projects = () => {
             className="card bg-base-100 border border-[#5453a2]  lg:w-1/3 shadow-xl"
           >
             <figure>
-              <img src={project.image} alt="paceful" className=" lg:h-64" />
+              <img src={project?.image} alt="paceful" className=" lg:h-64" />
             </figure>
             <div className="card-body">
               {/* <p> Project Start : {project.startDate}</p>
               <p> Project End : {project.endDate}</p> */}
-              <h2 className="card-title">{project.siteName}</h2>
+              <h2 className="card-title">{project?.siteName}</h2>
               <p>{project.description}</p>
               <p>
                 <span className=" font-medium">Tecnology</span> :
-                {project.tecnology}
+                {project?.tecnology}
               </p>
               <p>
                 <span className=" font-medium">Fetures</span> :
-                {project.Features}
+                {project?.Features}
               </p>
               <div className="card-actions">
                 <button className="btn  bg-[#8c98ce] text-white">
-                  <a target="_blank" href={project.gitServer}>
+                  <a target="_blank" href={project?.gitServer}>
                     Github Server
                   </a>
                 </button>
                 <button className="btn bg-[#8c98ce] text-white">
-                  <a target="_blank" href={project.gitClient}>
+                  <a target="_blank" href={project?.gitClient}>
                     Github Client
                   </a>
                 </button>
                 <button className="btn bg-[#8c98ce] text-white">
-                  <a target="_blank" href={project.liveLink}>
+                  <a target="_blank" href={project?.liveLink}>
                     Live Site
                   </a>
                 </button>
